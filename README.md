@@ -42,7 +42,7 @@ Users should be able to:
 
 - Solution URL : [Git URL](https://github.com/mathangisd/3-column-card-preview.git)
 
-- Live URL : [Stats Preview Card Component on Netlify](https://stats-preview-msd.netlify.app/)
+- Live URL : [3 Column Preview Card Component on Netlify](https://3column-preview-msd.netlify.app/)
 
 
 ## My process
