@@ -122,7 +122,6 @@ Card
     justify-content: center;
     justify-items: center;
     align-items:center ;
-    grid-template-rows: auto;
     margin: 4rem 1.5rem;
 }
 
@@ -142,12 +141,13 @@ Card
     font-family: var(--lexenddeca);
     font-size: 400;
 }
+
 .card-sedan {
     background-color: var(--bright-orange);
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
-
 }
+
 .btn-sedan {
     color: var(--bright-orange);
 }
@@ -178,9 +178,7 @@ Media Query
 
 @media screen and (min-width: 1100px) {
     .card-container {
-        grid-template-columns:repeat(3,300px );
-        column-gap: 0;
-        max-width: 900x;
+        grid-template-columns:repeat(3,300px);
         margin: 0 auto;
     }
 
