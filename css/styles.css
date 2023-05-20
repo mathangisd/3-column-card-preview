@@ -27,6 +27,8 @@
     /* border radius */
     --border-radius : 0.5rem;
 
+    --transition: all 0.3s linear;
+
 }
 
 html {font-size: 93.8%;} /*15px*/
@@ -94,6 +96,13 @@ small, .text-small {font-size: 0.8rem;}
     width: 55%;
 }
 
+.btn:hover {
+    cursor: pointer;
+    background: transparent;
+    color: var(--transparent-white);
+    border: 2px solid var(--transparent-white);
+    transition: var(--transition);
+}
 
 /* 
 ==============================
@@ -159,4 +168,37 @@ Card
 
 .btn-luxury {
     color: var(--dark-cyan);
+}
+
+/* 
+=========================================
+Media Query
+=========================================
+*/
+
+@media screen and (min-width: 1100px) {
+    .card-container {
+        grid-template-columns:repeat(3,300px );
+        column-gap: 0;
+        max-width: 900x;
+        margin: 0 auto;
+    }
+
+    .card {
+        display: grid;
+        width: 300px;
+        padding: 3rem;
+    }
+
+    .card-sedan {
+        border-radius: 0;
+        border-top-left-radius: var(--border-radius);
+        border-bottom-left-radius: var(--border-radius);
+    }
+    
+    .card-luxury {
+        border-radius: 0;
+        border-top-right-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
+    }
 }
