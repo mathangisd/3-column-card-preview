@@ -30,12 +30,14 @@ Users should be able to:
 
 ### <p style="text-align: center;">Desktop view</p> 
 
-![](./screenshot_3columnpreview_desktop.png)
+![](./screenshot_3column_desktop.png)
 
 
 ### <p style="text-align: left;">Mobile View</p> 
 
-![](./screenshot_3columnpreview_mobile.png)
+![](./screenshot_3column_mobile.png)
+
+![](./screenshot_3column1_mobile.png)
 
 # 
 ### Links
